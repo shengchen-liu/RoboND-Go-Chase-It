@@ -1,0 +1,8 @@
+prefix=/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/install
+
+Name: ball_chaser
+Description: Description of ball_chaser
+Version: 0.0.0
+Cflags: -I/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/install/include
+Libs: -L/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/install/lib 
+Requires: 
