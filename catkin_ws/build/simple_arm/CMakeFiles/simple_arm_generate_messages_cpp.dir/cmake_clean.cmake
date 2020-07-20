@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/include/simple_arm/GoToPosition.h"
   "CMakeFiles/simple_arm_generate_messages_cpp"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/include/simple_arm/GoToPosition.h"
 )
 
 # Per-language clean rules from dependency scanning.

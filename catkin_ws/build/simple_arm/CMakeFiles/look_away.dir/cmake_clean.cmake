@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/lib/simple_arm/look_away"
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/lib/simple_arm/look_away.pdb"
   "CMakeFiles/look_away.dir/src/look_away.cpp.o"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/lib/simple_arm/look_away.pdb"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/lib/simple_arm/look_away"
 )
 
 # Per-language clean rules from dependency scanning.

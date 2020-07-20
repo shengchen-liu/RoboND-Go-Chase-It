@@ -1,6 +1,5 @@
 # RoboND-Go Chase It!
 
-[TOC]
 
 ## Project Description
 
@@ -37,14 +36,14 @@ In this project, you should create two ROS packages inside your `catkin_ws/src`:
 #### Step 1 Create a Catkin Workspace
 
 ```shell
-$ cd ~/workspace/RoboND-Go-Chase-It/catkin_ws
+$ cd ./catkin_ws
 $ catkin_make
 ```
 
 #### Step 2 **Launch the robot inside your world**
 
 ```shell
-$ cd ~/workspace/RoboND-Go-Chase-It/catkin_ws
+$ cd ./catkin_ws
 $ source devel/setup.bash
 $ roslaunch my_robot world.launch
 ```
@@ -54,7 +53,7 @@ $ roslaunch my_robot world.launch
 This can be done by executing `ball_chaser.launch`:
 
 ```shell
-$ cd ~/workspace/RoboND-Go-Chase-It/catkin_ws
+$ cd ./catkin_ws
 $ source devel/setup.bash
 $ roslaunch ball_chaser ball_chaser.launch
 ```
@@ -119,7 +118,7 @@ $ touch empty.world
 
 **2- Add the following to empty.world**
 
-```
+```xml
 <?xml version="1.0" ?>
 
 <sdf version="1.4">
@@ -205,7 +204,7 @@ In the Build My World project, you used the **Model Editor** tool in Gazebo to m
 
 A simple robot with two links and a joint can be described using URDF as follows:
 
-```
+```xml
 <?xml version="1.0"?>
 <robot name="two_link_robot">
   <!--Links-->
@@ -280,7 +279,7 @@ The inertial properties of the link are described within this tag.
 
 Example snippet for `<link>` tag with important elements:
 
-```
+```xml
   <link name="link_1">
     <inertial>
       <origin xyz="0 0 0.4" rpy="0 0 0"/>
@@ -382,7 +381,7 @@ $ touch my_robot.xacro
 
 **3- Copy the following code into my_robot.xacro file**
 
-```
+```xml
 <?xml version='1.0'?>
 
 <robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
@@ -506,7 +505,7 @@ Add the following to the launch file (after `<launch>`):
 
 Add the following to the launch file (before `</launch>`):
 
-```
+```xml
 <!-- Find my robot Description-->
   <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_robot)/urdf/my_robot.xacro'"/>
 
@@ -556,7 +555,7 @@ inertia
   
   values as the ones for the chassis for simplicity:
 
-  ```
+  ```xml
     ixx="0.1" ixy="0" ixz="0"
       iyy="0.1" iyz="0"
     izz="0.1"
@@ -566,7 +565,7 @@ inertia
 
 Once define the links, you need to create the corresponding joints. The following elements will create a joint between your left wheel (the child link) and the robot chassis (the parent link):
 
-```
+```xml
   <joint type="continuous" name="left_wheel_hinge">
     <origin xyz="0 0.15 0" rpy="0 0 0"/>
     <child link="left_wheel"/>

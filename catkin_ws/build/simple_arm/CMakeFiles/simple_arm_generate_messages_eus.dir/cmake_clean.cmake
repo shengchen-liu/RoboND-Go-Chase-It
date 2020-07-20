@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/share/roseus/ros/simple_arm/manifest.l"
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/share/roseus/ros/simple_arm/srv/GoToPosition.l"
   "CMakeFiles/simple_arm_generate_messages_eus"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/share/roseus/ros/simple_arm/srv/GoToPosition.l"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/share/roseus/ros/simple_arm/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

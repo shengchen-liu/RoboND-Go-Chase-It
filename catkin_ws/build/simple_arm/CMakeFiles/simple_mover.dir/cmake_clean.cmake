@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/lib/simple_arm/simple_mover"
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/lib/simple_arm/simple_mover.pdb"
   "CMakeFiles/simple_mover.dir/src/simple_mover.cpp.o"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/lib/simple_arm/simple_mover.pdb"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/lib/simple_arm/simple_mover"
 )
 
 # Per-language clean rules from dependency scanning.

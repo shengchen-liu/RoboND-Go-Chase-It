@@ -9,7 +9,7 @@ import struct
 class GoToPositionRequest(genpy.Message):
   _md5sum = "243293dc5d540de7ec323fc657126846"
   _type = "simple_arm/GoToPositionRequest"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """float64 joint_1
 float64 joint_2
 """
@@ -32,7 +32,7 @@ float64 joint_2
     """
     if args or kwds:
       super(GoToPositionRequest, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.joint_1 is None:
         self.joint_1 = 0.
       if self.joint_2 is None:
@@ -71,7 +71,7 @@ float64 joint_2
       (_x.joint_1, _x.joint_2,) = _get_struct_2d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -100,7 +100,7 @@ float64 joint_2
       (_x.joint_1, _x.joint_2,) = _get_struct_2d().unpack(str[start:end])
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():
@@ -123,7 +123,7 @@ import struct
 class GoToPositionResponse(genpy.Message):
   _md5sum = "2897a4bc4d7ca330e430870cfdee7314"
   _type = "simple_arm/GoToPositionResponse"
-  _has_header = False #flag to mark the presence of a Header object
+  _has_header = False  # flag to mark the presence of a Header object
   _full_text = """string msg_feedback
 
 
@@ -147,7 +147,7 @@ class GoToPositionResponse(genpy.Message):
     """
     if args or kwds:
       super(GoToPositionResponse, self).__init__(*args, **kwds)
-      #message fields cannot be None, assign default values for those that are
+      # message fields cannot be None, assign default values for those that are
       if self.msg_feedback is None:
         self.msg_feedback = ''
     else:
@@ -192,7 +192,7 @@ class GoToPositionResponse(genpy.Message):
         self.msg_feedback = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 
   def serialize_numpy(self, buff, numpy):
@@ -230,7 +230,7 @@ class GoToPositionResponse(genpy.Message):
         self.msg_feedback = str[start:end]
       return self
     except struct.error as e:
-      raise genpy.DeserializationError(e) #most likely buffer underfill
+      raise genpy.DeserializationError(e)  # most likely buffer underfill
 
 _struct_I = genpy.struct_I
 def _get_struct_I():

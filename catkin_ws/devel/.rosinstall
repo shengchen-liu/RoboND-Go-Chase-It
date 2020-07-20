@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/setup.sh
+    local-name: /home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/setup.sh

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py"
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py"
   "CMakeFiles/ball_chaser_generate_messages_py"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/_DriveToTarget.py"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/lib/python2.7/dist-packages/ball_chaser/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

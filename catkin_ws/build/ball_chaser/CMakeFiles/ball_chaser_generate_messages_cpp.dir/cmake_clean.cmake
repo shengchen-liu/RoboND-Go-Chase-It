@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/shengchen/Udacity/RoboND/RoboND-Go-Chase-It/catkin_ws/devel/include/ball_chaser/DriveToTarget.h"
   "CMakeFiles/ball_chaser_generate_messages_cpp"
-  "/home/shengchen/workspace/RoboND-Go-Chase-It/catkin_ws/devel/include/ball_chaser/DriveToTarget.h"
 )
 
 # Per-language clean rules from dependency scanning.
